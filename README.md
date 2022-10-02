@@ -28,8 +28,12 @@ String Json to Map and Struct,
 
 Strings,
 
-Variable Declarations
+Variable Declarations,
 
+Pointers,
 
+Structs,
 
-Convert (Map to Struct, Struct to Map)
+Functions,
+
+Interfaces
