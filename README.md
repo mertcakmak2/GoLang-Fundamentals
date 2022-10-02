@@ -1,15 +1,35 @@
 # GoLang-Source
 
-Strings,
+Arrays,
 
-Integers,
+Bytes,
+
+Channels,
+
+Conditions,
+
+Files,
 
 Floats,
 
-Arrays,
+Goroutines,
 
-Slice,
+Integers,
 
-Map,
+Loops,
+
+Maps,
+
+Slices,
+
+Strcut and Map Convert,
+
+String Json to Map and Struct,
+
+Strings,
+
+Variable Declarations
+
+
 
 Convert (Map to Struct, Struct to Map)
