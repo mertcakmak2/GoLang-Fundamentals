@@ -14,7 +14,6 @@ func main() {
 	var user User
 	bytes := []byte(user_json)
 	json.Unmarshal(bytes, &user)
-
 	fmt.Println(user) // {mert cakmak 24}
 }
 
