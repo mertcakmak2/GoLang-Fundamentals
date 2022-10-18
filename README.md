@@ -1,5 +1,7 @@
 
-# GoLang-Source
+# GoLang-Fundamentals
+
+![Logo](https://www.freecodecamp.org/news/content/images/2021/10/golang.png) 
 
 ## Sources
 
