@@ -30,17 +30,26 @@ https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37
 #### Float Examples
 [Floats](https://github.com/mertcakmak2/GoLang-Source/tree/master/floats)
 
+#### Function Examples
+[Functions](https://github.com/mertcakmak2/GoLang-Source/tree/master/functions)
+
 #### Goroutine Examples
 [Goroutines](https://github.com/mertcakmak2/GoLang-Source/tree/master/goroutines)
 
 #### Integer Examples
 [Integers](https://github.com/mertcakmak2/GoLang-Source/tree/master/integers)
 
+#### Interface Examples
+[Interfaces](https://github.com/mertcakmak2/GoLang-Source/tree/master/interfaces)
+
 #### Loop Examples
 [Loops](https://github.com/mertcakmak2/GoLang-Source/tree/master/loops)
 
 #### Map Examples
 [Maps](https://github.com/mertcakmak2/GoLang-Source/tree/master/maps)
+
+#### Pointer Examples
+[Pointers](https://github.com/mertcakmak2/GoLang-Source/tree/master/pointers)
 
 #### Slice Examples
 [Slices](https://github.com/mertcakmak2/GoLang-Source/tree/master/slices)
@@ -54,19 +63,9 @@ https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37
 #### Strings
 [Strings](https://github.com/mertcakmak2/GoLang-Source/tree/master/strings)
 
+#### Struct Examples
+[Structs](https://github.com/mertcakmak2/GoLang-Source/tree/master/structs)
+
 #### Variable Declarations
 [Variable Declarations](https://github.com/mertcakmak2/GoLang-Source/tree/master/variable_declaration)
-
-#### Pointer Examples
-[Pointers](https://linktodocumentation)
-
-#### Struct Examples
-[Structs](https://linktodocumentation)
-
-#### Function Examples
-[Functions](https://linktodocumentation)
-
-#### Interface Examples
-[Interfaces](https://linktodocumentation)
-
   
