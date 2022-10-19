@@ -26,6 +26,9 @@ https://www.dotnetperls.com/json-go
 #### Channel Examples
 [Channels](https://github.com/mertcakmak2/GoLang-Source/tree/master/channels)
 
+#### Cmd Execute Examples
+[Cmd Execute](https://github.com/mertcakmak2/GoLang-Fundamentals/tree/master/cmd-execute)
+
 #### Condition Examples
 [Conditions](https://github.com/mertcakmak2/GoLang-Source/tree/master/conditions)
 
@@ -68,7 +71,7 @@ https://www.dotnetperls.com/json-go
 #### String Json to Map and Struct
 [String Json to Map and Struct](https://github.com/mertcakmak2/GoLang-Source/tree/master/string_json_to_map_and_struct)
 
-#### Strings
+#### Strings Examples
 [Strings](https://github.com/mertcakmak2/GoLang-Source/tree/master/strings)
 
 #### Struct Examples
