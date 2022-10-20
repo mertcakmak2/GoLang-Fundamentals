@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
 
 	k := make(chan bool, 2)
@@ -13,6 +9,9 @@ func main() {
 		k <- false
 	}()
 
-	fmt.Println(<-k, <-k)
+	// fmt.Println(<-k, <-k)
 	//output: true false
+
+	// fmt.Println(<-k, <-k, <-k) // dead lock
+
 }

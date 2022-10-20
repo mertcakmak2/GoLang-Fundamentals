@@ -13,6 +13,7 @@ func main() {
 	fmt.Println("before")
 	go sender(channel, users)
 	go receiver(channel, users)
+	// go receiver2(channel, users)
 	fmt.Println("after")
 
 	<-time.After(time.Second * 5)
@@ -31,17 +32,21 @@ func sender(channel chan string, users []string) {
 
 func receiver(channel chan string, users []string) {
 	for user := range channel {
-		fmt.Println(user)
+		fmt.Println("(1)Received user: " + user)
 	}
-
 	//or
-
 	// func(userList []string) {
 	// 	for i := 0; i < len(userList); i++ {
 	// 		user := <-channel
 	// 		fmt.Println("Received user: " + user)
 	// 	}
 	// }(users)
+}
+
+func receiver2(channel chan string, users []string) {
+	for user := range channel {
+		fmt.Println("(2)Received user: " + user)
+	}
 }
 
 // Output
