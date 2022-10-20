@@ -19,22 +19,29 @@ func main() {
 }
 
 func sender(channel chan string, users []string) {
-	func(userList []string) {
-		for _, user := range userList {
-			fmt.Println("Sent user: " + user)
-			channel <- user // send to channel
-			time.Sleep(time.Second)
-		}
-	}(users)
+	// func(userList []string) {
+	// for _, user := range userList {
+	for _, user := range users {
+		fmt.Println("Sent user: " + user)
+		channel <- user // send to channel
+		time.Sleep(time.Second)
+	}
+	// }(users)
 }
 
 func receiver(channel chan string, users []string) {
-	func(userList []string) {
-		for i := 0; i < len(userList); i++ {
-			user := <-channel
-			fmt.Println("Received user: " + user)
-		}
-	}(users)
+	for user := range channel {
+		fmt.Println(user)
+	}
+
+	//or
+
+	// func(userList []string) {
+	// 	for i := 0; i < len(userList); i++ {
+	// 		user := <-channel
+	// 		fmt.Println("Received user: " + user)
+	// 	}
+	// }(users)
 }
 
 // Output
