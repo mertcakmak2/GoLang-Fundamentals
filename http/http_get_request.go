@@ -39,6 +39,23 @@ func main() {
 		fmt.Println(post.Id, post.UserId, post.Title)
 	}
 
+	http.HandleFunc("/hello", func(w http.ResponseWriter, r *http.Request) {
+		response := &Response{StatusCode: resp.StatusCode, Status: resp.Status, Body: posts}
+		res, _ := json.Marshal(response)
+		w.Write(res)
+	})
+
+	fmt.Printf("Starting server at port 8080\n")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		log.Fatal(err)
+	}
+
+}
+
+type Response struct {
+	StatusCode int    `json:"statusCode"`
+	Status     string `json:"status"`
+	Body       []Post `json:"body"`
 }
 
 type Post struct {
